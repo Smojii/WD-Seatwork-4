@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    overflow-x: hidden;
+}
+body{
+    background-color: gray;
+}
+header.style1n {
+    background-color: black;
+    height: 10vh;
+    padding: 15px;
+    box-shadow: 0 0 3px teal;
+}
+
+header.style1n li{
+    display: inline;
+    margin-top: -30px;
+    padding-left: 45px;
+}
+
+header.style1n a{
+    color: floralwhite;
+    text-decoration: none;
+    padding: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid transparent;
+}
+
+header.style1n img{
+    float: left;
+    width: 200px;
+    margin-left: 10px;
+}
+
+.nav__merc a{
+    display:inline-flex;
+    margin-top: 15px;
+}
+.nav__merc a:hover{
+    border-top-color: teal;
+    border-bottom-color: teal;
+    color: teal;
+}
+.main{
+    height: 383.7vh;
+}
+.page-1{
+    background-image: url(../../../../assets/img/merc1.png);
+    background-size: cover;
+    height: 110vh;
+}
+.page-2{
+    background-image: url(../../../../assets/img/merc3.jpeg);
+    background-size: cover;
+    height: 110vh;
+    padding: 3rem;
+}
+.page-3{
+    background-image: linear-gradient(to top, rgba(2, 2, 2, 0.8), rgba(0, 0, 0, 0.137)), url(../../../../assets/img/merc2.png);
+    background-size: cover;
+    height: 110vh;
+}
+header.style1n2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: floralwhite;
+    height: 100%;
+    width: 100%;
+    background: gray;
+}
+
+header.style1n2 .links li{
+    list-style: none;
+}
+
+header.style1n2 img{
+    float: left;
+    width: 200px;
+    margin-top: -10px;
+    margin-left: 10px;
+}
+
+header.style1n2 .footern{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    top: 0;
+    height: 30vh;
+    width: 100%;
+    padding: 40px 0;
+    background: black;
+    box-shadow: 0 0 3px teal;
+}
+
+header.style1n2 h4{
+    margin-bottom: 1.5rem;
+    font-size: 20px;
+}
+
+header.style1n2 li{
+    margin-bottom: 10px;
+}
+
+header.style1n2 li a{
+    display: block;
+    color: teal;
+    font-size: 15px;
+    font-weight: 400;
+    text-decoration: none;
+}
+.nav__mercn a:hover{
+    color: floralwhite;
+}
+.page-1 .description h1{
+    color: #000;
+    margin-top: 10px;
+    margin-left: 10px;
+    text-align: left;
+    float: left;
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    width: 80vh;
+    height: 20vh;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1.5px teal;
+}
+.page-1 .description-2{
+    font-family: "Space Grotesk", sans-serif;
+    position: absolute;
+    color: aliceblue;
+    left: 15vh;
+    width: 70vh;
+    height: 20vh;
+}
+.page-1 .description-2 h1{
+    font-weight: 700;
+    font-size: 25px;
+}
+.page-1 .description-2 p{
+    font-weight: 400;
+    font-size: 15px;
+}
+.page-1 .description-3{
+    font-family: "Space Grotesk", sans-serif;
+    position: absolute;
+    color: aliceblue;
+    left: 10px;
+    top: 63dvh;
+    width: 50vh;
+    height: 15vh;
+}
+.page-1 .description-3 h1{
+    font-weight: 700;
+    font-size: 25px;
+}
+.page-1 .description-3 p{
+    font-weight: 400;
+    font-size: 15px;
+}
+.page-1 .description-4{
+    font-family: "Space Grotesk", sans-serif;
+    position: absolute;
+    color: aliceblue;
+    left: 130dvh;
+    bottom: 43dvh;
+    width: 70vh;
+    height: 35vh;
+}
+.page-1 .description-4 h1{
+    font-weight: 700;
+    font-size: 25px;
+}
+.page-1 .description-4 p{
+    font-weight: 400;
+    font-size: 15px;
+}
+.page-1 .description-5{
+    font-family: "Space Grotesk", sans-serif;
+    position: absolute;
+    color: aliceblue;
+    left: 150dvh;
+    top: 63dvh;
+    width: 50vh;
+    height: 15vh;
+}
+.page-1 .description-5 h1{
+    font-weight: 700;
+    font-size: 25px;
+}
+.page-1 .description-5 p{
+    font-weight: 400;
+    font-size: 15px;
+}
+.page-2 .description{
+    -webkit-text-stroke: 0.5px teal;
+    margin-top: 20px;
+}
+.page-2 .description h1{
+    color: aliceblue;
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 700;
+    font-size: 90px;
+}
+.page-2 .description p{
+    color: aliceblue;
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.page-3 h1{
+    color: aliceblue;
+    font-family: "Space Grotesk", sans-serif;
+    text-shadow: #000;
+    font-weight: 700;
+    font-size: 60px;
+    margin-left: 30dvh;
+    margin-top: 3dvh;
+}
+.page-3 p{
+    color: aliceblue;
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 80dvh;
+}

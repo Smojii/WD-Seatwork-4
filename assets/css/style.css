@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Anton", sans-serif;
+}
+body{
+    background-image: url(../img/bg\ landing2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.content{
+    margin-top: 30dvh;
+    width: 100%;
+    position: absolute;
+    top: 30%;
+    transform: translateY(-70%);
+    text-align: center;
+    color: black;
+}
+.content h1{
+    font-size: 60px;
+}
+.content h2{
+    font-size: 70px;
+    margin-top: 50px;
+}
+.content p{
+    margin: 40px auto;
+    font-size: 40px;
+    font-weight: 200px;
+    line-height: 25px;
+}
+.button{
+    position: relative;
+    top: 50px;
+}
+.button a{
+    font-weight: 600;
+    font-style: normal;
+    height: 60px;
+    width: 150px;
+    background-color: whitesmoke;
+    margin: auto;
+    font-size: 25px;
+    text-align: center;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 0px 8px  0px grey,0px 8px 20px #222222;
+    transition: all 0.2 ease;
+}
+
+.button a:active{
+    box-shadow: none;
+    top: 8px;
+}
