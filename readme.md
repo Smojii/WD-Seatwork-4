@@ -60,13 +60,12 @@
 
 <!-- TODO: To be changed -->
 <!-- The following are just sample -->
-Description of the project in details.
+The project is all about designing features for your chosen topic. For my project, I decided to create my website just like the Formula One team of Mercedes and Red Bull.
 
-Guiding Question:
-- What is the project
-- Whats the purpose
-- What are key components
-- What technology used and how it is used
+Each of my websites shows different styles of features. All the references that I’ve gathered refer to the team's original websites.
+
+The technologies that I’ve used were HTML and CSS. The project is mostly in HTML because of the contents of each picture on the website. I used CSS for designing and the positioning of the texts and pictures.
+
 
 ### Key Components
 <!-- TODO: List of Key Components -->
